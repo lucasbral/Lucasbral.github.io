@@ -1,6 +1,5 @@
 <!doctype html>
 
-{% load static %}
 
 <html lang="pt">
   <head>
@@ -37,7 +36,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href='{% static "css/carousel.css" %}' rel='stylesheet' />
+    <link href="css/carousel.css" rel='stylesheet' />
   </head>
   <body>
     
@@ -70,7 +69,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-          <img src="{% static "img/home.jpg" %}" 
+          <img src="img/home.jpg"
         </svg>
         <div class="container">
           <div class="carousel-caption text-start">
@@ -102,21 +101,21 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <img src="{% static "img/robotica.jpg" %}" class="img-fluid rounded-circle" alt="Robótica" width="320" height="320" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="img/robotica.jpg" class="img-fluid rounded-circle" alt="Robótica" width="320" height="320" preserveAspectRatio="xMidYMid slice" focusable="false">
 
         <h2>Robótica</h2>
         <p>Sou amante de robótica! Participei de algumas competições nacionais e internacionais nas categorias de desafios inteligentes.</p>
         <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img src="{% static "img/programacao.png" %}" class="img-fluid rounded-circle" alt="Programação" width="200" height="200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+        <img src="img/programacao.png" class="img-fluid rounded-circle" alt="Programação" width="200" height="200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
           
         <h2>Programação</h2>
         <p>Programar hoje é essencial, pensando nisso escolhi a linguagem de programação Python ! por ser simples e objetiva. Além disso desenvolvi por muito tempo em microcontroladores como o ATmega328 presente no Arduino.</p>
         <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img src="{% static "img/Circuitos.jpg" %}" class="img-fluid rounded-circle" alt="Circuitos eletrônicos" width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+        <img src="img/Circuitos.jpg" class="img-fluid rounded-circle" alt="Circuitos eletrônicos" width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
 
         <h2>Circuitos Eletrônicos</h2>
         <p>Como Eletrônico gosto bastante de desenvolver circuitos e placas de circuito impresso para as mais variadas situações. </p>
@@ -140,7 +139,7 @@
         <p class="lead">Fui um dos responsáveis por desenvolver perry para competir em competições nacionais e internacionais de robótica na categoria seguidor de linha pro. Perry usa de um sistem P&D embarcado em um Arduino Nano para conseguir percorrer o trajeto. Os seus sensores são optoacopladores que conseguem perceber a mínima variação de Luz!</p>
       </div>
       <div class="col-md-5">
-        <img src="{% static "img/perry.jpg" %}" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="img/perry.jpg" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
@@ -153,7 +152,7 @@
         <p class="lead">Programar as vezes pode parecer uma tarefa chata, mas não se você fizer algo que realmente gosta! pensando nisso desenvolvi este joguinho em python usando de variadas bibliotecas dentro da plataforma. Usando um dicionário da lingua portuguesa de 30.000 palavras o jogo da forca gera aleatóriamente para uma interface tkinter desenvolvida com o intuito de ser simples e objetiva.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="{% static "img/forca.png" %}" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="img/forca.png" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
@@ -166,7 +165,7 @@
         <p class="lead">Este foi meu projeto de fim de curso na graduação de Engenharia eletrônica, Este medidor é capaz de medir a presença de campos elétricos que podem ser nocivos a saúde humana a partir de 1 KV/m. Baseado no princípio de carga induzida em uma esfera sob influência de campo elétrico.</p>
       </div>
       <div class="col-md-5">
-        <img src="{% static "img/sensor.jpg" %}" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="img/sensor.jpg" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
@@ -186,7 +185,7 @@
 
   
   
-              <img src="{% static "img/eu.jpg" %}" class="img-fluid rounded-circle align: center;"width="250" height="250" alt="">
+              <img src="img/eu.jpg" class="img-fluid rounded-circle align: center;"width="250" height="250" alt="">
               
               <ul class="social-media-list">
                 <li><a href="https://twitter.com/lucasbr4l"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
@@ -235,7 +234,7 @@
   
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
+    
     <p>&copy; 2020-2021 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
