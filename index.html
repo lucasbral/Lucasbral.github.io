@@ -1,0 +1,245 @@
+<!doctype html>
+
+{% load static %}
+
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Descrição" content="Website - Lucas">
+    <meta name="author" content="Lucas Sobral, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Lucas Sobral</title>
+
+    
+    
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href='{% static "css/carousel.css" %}' rel='stylesheet' />
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Lucas Sobral</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contatos</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          <img src="{% static "img/home.jpg" %}" 
+        </svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Bem vindo !</h1>
+            <p>Sou o Lucas! Brasileiro, Engenheiro e técnico eletrônico , nas horas vagas aventureiro, tentanto ser um pouquinho programador haha!</p>
+           <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+          </div>
+        </div>
+      </div>
+     
+        
+        </div>
+      </div>
+      </div>
+    </div>
+  
+    </a>
+    
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="{% static "img/robotica.jpg" %}" class="img-fluid rounded-circle" alt="Robótica" width="320" height="320" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2>Robótica</h2>
+        <p>Sou amante de robótica! Participei de algumas competições nacionais e internacionais nas categorias de desafios inteligentes.</p>
+        <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="{% static "img/programacao.png" %}" class="img-fluid rounded-circle" alt="Programação" width="200" height="200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          
+        <h2>Programação</h2>
+        <p>Programar hoje é essencial, pensando nisso escolhi a linguagem de programação Python ! por ser simples e objetiva. Além disso desenvolvi por muito tempo em microcontroladores como o ATmega328 presente no Arduino.</p>
+        <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="{% static "img/Circuitos.jpg" %}" class="img-fluid rounded-circle" alt="Circuitos eletrônicos" width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+        <h2>Circuitos Eletrônicos</h2>
+        <p>Como Eletrônico gosto bastante de desenvolver circuitos e placas de circuito impresso para as mais variadas situações. </p>
+       <!--- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+    <div class="container"></div>
+    <hr class="featurette-divider">
+    <div class="col-lg-12 text-center">
+    <h2 class="section-heading">Alguns dos Meus Projetos Favoritos!&nbsp;</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Perry ! <span class="text-muted">O robô seguidor de Linha.</span></h2>
+        <p class="lead">Fui um dos responsáveis por desenvolver perry para competir em competições nacionais e internacionais de robótica na categoria seguidor de linha pro. Perry usa de um sistem P&D embarcado em um Arduino Nano para conseguir percorrer o trajeto. Os seus sensores são optoacopladores que conseguem perceber a mínima variação de Luz!</p>
+      </div>
+      <div class="col-md-5">
+        <img src="{% static "img/perry.jpg" %}" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Jogo da Forca! <span class="text-muted">Um jogo da Forca feito inteiramente em Python.</span></h2>
+        <p class="lead">Programar as vezes pode parecer uma tarefa chata, mas não se você fizer algo que realmente gosta! pensando nisso desenvolvi este joguinho em python usando de variadas bibliotecas dentro da plataforma. Usando um dicionário da lingua portuguesa de 30.000 palavras o jogo da forca gera aleatóriamente para uma interface tkinter desenvolvida com o intuito de ser simples e objetiva.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="{% static "img/forca.png" %}" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Medidor de Campos Elétricos! <span class="text-muted">"Deu trabalho, Viu ?"</span></h2>
+        <p class="lead">Este foi meu projeto de fim de curso na graduação de Engenharia eletrônica, Este medidor é capaz de medir a presença de campos elétricos que podem ser nocivos a saúde humana a partir de 1 KV/m. Baseado no princípio de carga induzida em uma esfera sob influência de campo elétrico.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="{% static "img/sensor.jpg" %}" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+   <!-- Team Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contatos</h2>
+                <h3 class="section-subheading text-muted">Se quiser bater um papo aqui estão minhas redes sociais e currículo!</h3>
+
+  
+  
+              <img src="{% static "img/eu.jpg" %}" class="img-fluid rounded-circle align: center;"width="250" height="250" alt="">
+              
+              <ul class="social-media-list">
+                <li><a href="https://twitter.com/lucasbr4l"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
+                <li><a href="https://github.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="GitHub" title="GitHub"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCM1X70L00ffUIgE-QjCOhMQ"><img src="https://unpkg.com/simple-icons@latest/icons/youtube.svg" alt="YouTube" title="YouTube"></a></li>
+                <li><a href="https://www.facebook.com/lucas.carvalho.7587"><img src="https://unpkg.com/simple-icons@latest/icons/facebook.svg" alt="Facebook" title="Facebook"></a></li>
+                <li><a href="mailto:lucasdecarvalhosobral@gmail.com"><img src="https://unpkg.com/simple-icons@latest/icons/gmail.svg" alt="Mail" title="mail"></a></li>
+                <li><a href="https://www.linkedin.com/in/lucasbral/"><img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="Linkedin" title="Linkedin"></a></li>
+                <li><a href="https://www.instagram.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" alt="Instagram" title="Instagram"></a></li>
+                <li><a href="http://lattes.cnpq.br/2090054123050302"><img src="https://unpkg.com/simple-icons@latest/icons/readthedocs.svg" alt="Lattes" title="Lattes"></a></li>
+              </ul>
+            </div>
+          </div>
+
+            <style>
+              ul.social-media-list {
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                  font-size: 0px; /* eliminate space between li */
+                  
+                }
+
+                ul.social-media-list li {
+                  display: inline-block;
+                  margin: 2px;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+
+                ul.social-media-list img {
+                  padding: 5px;
+                  border-radius: 5px;
+                  width: 36px;
+                  height: 36px;
+                }
+
+            </style>
+          
+
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020-2021 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+</body>
+</html>
