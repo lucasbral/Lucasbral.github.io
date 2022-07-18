@@ -1,93 +1,421 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
-  
-  
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-  
-  /* Carousel base class */
-  .carousel {
-    margin-bottom: 4rem;
-  }
-  /* Since positioning the image, we need to help out the caption */
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
-  
-  /* Declare heights because of positioning of img element */
-  .carousel-item {
-    height: 32rem;
-  }
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
-  }
-  
-  
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
-  
-  /* Center align the text within the three columns below the carousel */
-  .marketing .col-lg-4 {
+ 
+  .marketing .col-md-3 {
     margin-bottom: 1.5rem;
     text-align: center;
+    
   }
   .marketing h2 {
-    font-weight: 400;
+    font-weight:600 ;
+    font-family: "Segoe UI"
   }
-  /* rtl:begin:ignore */
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
+
+ 
+  ul.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0px; /* eliminate space between li */
+    font-family: "Segoe UI"
   }
-  /* rtl:end:ignore */
-  
-  
-  /* Featurettes
-  ------------------------- */
-  
+
+  ul.social-media-list li {
+    display: inline-block;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+  }
+
+  header {
+    text-align: center;
+    font-family: "Segoe UI"
+  }
+
+  h2 {
+    text-align: center;
+    font-family: "Segoe UI";
+    
+  }
+
+  h3 {
+    text-align: center;
+    font-family: "Segoe UI"
+    
+    
+  }
+
+  .section-heading {
+    text-align: center;
+    font-family: "Segoe UI";
+    font-size: 50px;
+    margin: 5rem 0;
+    height: 36px;
+  }
+
+
+
+  p {
+    text-align: center;
+    font-family: "Segoe UI"
+  }
+
+  ul.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0px; /* eliminate space between li */
+    font-family: "Segoe UI"
+  }
+
+  ul.social-media-list li {
+    display: inline-block;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Segoe UI";
+  }
+
+  ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+  }
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   }
   
   /* Thin out the marketing headings */
+  /* rtl:begin:remove */
   .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    /* rtl:remove */
     letter-spacing: -.05rem;
   }
-  
-  
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
   @media (min-width: 40em) {
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-      margin-bottom: 1.25rem;
-      font-size: 1.25rem;
-      line-height: 1.4;
-    }
   
     .featurette-heading {
       font-size: 50px;
+      font-family: "Segoe UI"
     }
   }
   
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
+      font-family: "Segoe UI"
+      
     }
   }
+  
+  #mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+    font-family: "Segoe UI"
+  }
+  #mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+  #mainNav .navbar-brand {
+    color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 0.0625em;
+
+  }
+  #mainNav .navbar-brand img {
+    height: 1.7rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+    font-family: "Segoe UI"
+    
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #78735f;
+  }
+
+  ul.dropdown-menu {
+    background-color: #212529;
+    text-align:center;
+
+}
+
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border: none;
+      background-color: transparent;
+      transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+      font-family: "Segoe UI"
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.5em;
+      transition: font-size 0.3s ease-in-out;
+      font-family: "Segoe UI"
+    }
+    #mainNav .navbar-brand img {
+      height: 2rem;
+      transition: height 0.3s ease-in-out;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background-color: #212529;
+      font-family: "Segoe UI"
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      font-family: "Segoe UI"
+    }
+    #mainNav.navbar-shrink .navbar-brand svg,
+  #mainNav.navbar-shrink .navbar-brand img {
+      height: 1.5rem;
+      font-family: "Segoe UI"
+    }
+    #mainNav .navbar-nav .nav-item {
+      margin-right: 1rem;
+      font-family: "Segoe UI"
+      
+    }
+    #mainNav .navbar-nav .nav-item:last-child {
+      margin-right: 0;
+      font-family: "Segoe UI"
+    }
+  }
+
+     header.masthead {
+      padding-top: 10.5rem;
+      padding-bottom: 6rem;
+      text-align: center;
+      color: #fff;
+      background-image: url("../img/home.jpg");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+    header.masthead .masthead-subheading {
+      font-size: 1.5rem;
+      font-style: italic;
+      line-height: 1.5rem;
+      margin-bottom: 25px;
+      font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    header.masthead .masthead-heading {
+      font-size: 3.25rem;
+      font-weight: 700;
+      line-height: 3.25rem;
+      margin-bottom: 2rem;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    
+    @media (min-width: 768px) {
+      header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+      }
+      header.masthead .masthead-subheading {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+      }
+      header.masthead .masthead-heading {
+        font-size: 3.5rem;
+        font-weight: 500;
+        line-height: 4.5rem;
+        margin-bottom: 3rem;
+      }
+    }
+    
+
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      border-radius: 0.25rem;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .btn {
+        transition: none;
+      }
+    }
+    .btn:hover {
+      color: #000000;
+    }
+    .btn-check:focus + .btn, .btn:focus {
+      outline: 0; 
+      background-color: #000000;
+      border-color: #000000;
+    }
+    .btn-check:focus + .btn, .btn:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    .btn-primary  {
+      color: #fff;
+      background-color: #000000;
+      border-color: #000000;
+    }
+    .btn-primary:hover {
+      color: #fff;
+      background-color: #3b3b3b;
+      border-color: #3b3b3b;
+    }
+   
+    .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+      color: #fff;
+      background-color: #3b3b3b;
+      border-color:#3b3b3b;
+    }
+    .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+      box-shadow: none
+    }
+    
+    
+    
+  /*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+
+}
+
+.modal-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #45505b;
+  text-align: justify;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+.progress-title{
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 10px;
+}
+.progress{
+  height: 17px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 15px;
+  margin-bottom: 15px;
+  overflow: visible;
+  position: relative;
+}
+.progress .progress-bar{
+  border-radius: 15px;
+  box-shadow: none;
+  position: relative;
+  animation: animate-positive 2s;
+}
+.progress .progress-icon,
+.progress .progress-value{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size:15px;
+  font-weight: 600;
+  position: absolute;
+  top: -17px;
+  right: -5px;
+}
+
+@-webkit-keyframes animate-positive{
+  0%{ width: 0; }
+}
+@keyframes animate-positive{
+  0%{ width: 0; }
+}
+
+.home__img img{
+  width: 230px;
+  animation: floaty  1.8s infinite alternate;
+
+}
+
+.home__img {
+  justify-self: center;
+}
+
+
+@keyframes floaty{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(26px);
+  }
+}

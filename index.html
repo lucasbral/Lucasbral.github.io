@@ -1,139 +1,132 @@
 <!doctype html>
-
-
 <html lang="pt">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Descrição" content="Website - Lucas">
     <meta name="author" content="Lucas Sobral, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="description" content="Website Apresentação Lucas Sobral">
+    <meta property="og:title" content="Lucas Sobral">
+    <meta property="og:site_name" content="Lucas Sobral">
     <title>Lucas Sobral</title>
-    <link rel="icon" href="img/icon.png">
 
+    <link rel="icon" href="img/icon4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
     
-    
-
-    
-
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/index.css" rel='stylesheet' />
     
 
-    
-
-    
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel='stylesheet' />
   </head>
-  <body>
-    
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Lucas Sobral</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#projetos">Projetos<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contatos">Contatos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index2.html">Informações Profissionais</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-    </header>
 
-<main>
-
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-          <img src="img/home.jpg"
-        </svg>
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Bem vindo !</h1>
-            <p>Sou o Lucas! Brasileiro, Engenheiro e técnico eletrônico , nas horas vagas aventureiro, tentanto ser um pouquinho programador haha!</p>
-           <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand" href="#">Lucas Sobral <img src="img/icon3.png" alt="Logo" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="#eu">Eu</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#01" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mais
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a data-bs-toggle="modal" data-bs-target="#modalcurriculo" class ="nav-link"href="#modalcurriculo">Curriculo</a></li>
+                    </ul>
+                  </li>
+                  
+              </ul>
           </div>
-        </div>
       </div>
-     
-        
-        </div>
-      </div>
-      </div>
-    </div>
-  
-    </a>
+  </nav>
+  </header>
+
+
+<body>
+
+  <div data-bs-spy="scroll" data-bs-target="Navbar" data-bs-root-margin="0px 0px -10%" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
     
-    </a>
-  </div>
-
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-  <div class="container"></div>
+    <header class="masthead">
+      <div class="container">
+          <div class="masthead-subheading">Opa !</div>
+          <div class="masthead-heading text-uppercase">É um prazer conhecê-lo</div>
+          <a class="btn btn-primary" href="#eu">Quem sou eu ?</a>
+      </div>
+    </header>  
 
   <hr class="featurette-divider">
-  <div class="col-lg-12 text-center">
-  <h2 class="section-heading">O que gosto de fazer ?&nbsp;</h2>
-  <br>
-  <br>
-  <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <img src="img/robotica.jpg" class="img-fluid rounded-circle" alt="Robótica" width="320" height="320" preserveAspectRatio="xMidYMid slice" focusable="false">
+  <div class="container" id="eu">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Quem sou eu ?</h2>
+        <br>
+        <h3 class="section-subheading text-muted">Sou o Lucas, Brasileiro, 25 anos, Técnico e Engenheiro Eletrônico, as vezes aventureiro e um pouquinho programador ! haha</h3>
+        <div class="home__img">
+          <img src="img/eu.png" alt="">
+        </div>
+      </div>
+      <br>
+      <br>
 
-        <h2>Robótica</h2>
-        <p>Sou amante de robótica! Participei de algumas competições nacionais e internacionais nas categorias de desafios inteligentes.</p>
-        <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="img/programacao.png" class="img-fluid rounded-circle" alt="Programação" width="200" height="200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-          
-        <h2>Programação</h2>
-        <p>Programar hoje é essencial, pensando nisso escolhi a linguagem de programação Python ! por ser simples e objetiva. Além disso desenvolvi por muito tempo em microcontroladores como o ATmega328 presente no Arduino.</p>
-        <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="img/circuitos.jpg" class="img-fluid rounded-circle" alt="Circuitos eletrônicos" width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+      <h3 class="section-subheading text-muted">Tenho Experiência com:</h3>
+      <br>
+      <div class="container marketing">
+        <div class="row justify-content-md-center">
+          <div class="col-md-3">
+            <img src="img/robotica.jpg" class="bd-placeholder-img rounded-circle mx-auto" alt="Robótica" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false">
 
-        <h2>Circuitos Eletrônicos</h2>
-        <p>Como Eletrônico gosto bastante de desenvolver circuitos e placas de circuito impresso para as mais variadas situações. </p>
-       <!--- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+            <h2>Robótica</h2>
+            <p>Sou amante de robótica! Participei de algumas competições nacionais e internacionais nas categorias de desafios inteligentes.</p>
+            <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            
+          </div>
+          <div class="col-md-3">
+            <img src="img/Python.jpg" class="bd-placeholder-img rounded-circle" alt="Programação" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+            <h2>Programação</h2>
+            <p>Programar hoje é essencial, pensando nisso escolhi a linguagem de programação Python ! por ser simples e objetiva. Hoje estou focando em melhorar minhas habilidades em data science por meio desta linguagem.</p>
+            <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+          </div>
+          <div class="col-md-3">
+            <img src="img/BI.jpg" class="bd-placeholder-img rounded-circle" alt="Circuitos eletrônicos" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
 
+            <h2>Business Intelligence </h2>
+            <p>Tenho experiência na Industria com análise de indicadores de produção e performance. Construíndo sistemas e visualizações em tempo real para ajudar na tomada de decisões.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/GB.png" class="bd-placeholder-img rounded-circle" alt="Circuitos eletrônicos" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
 
-    <!-- START THE FEATURETTES -->
-    <div class="container" id="projetos"></div>
-    <hr class="featurette-divider">
-    <div class="col-lg-12 text-center">
-    <h2 class="section-heading">Alguns dos Meus Projetos Favoritos!&nbsp;</h2>
-    <br>
-    <br>
-    <br>
-    <br>
+            <h2>Lean Six Sigma</h2>
+            <p>Também na industria pude conhecer a metodologia Lean e Six Sigma, aplicando das suas mais diversas ferramentas. Tornando-me assim um Green Belt.</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="container" id="projetos">
+      <hr class="featurette-divider">
+
+      <h2 class="section-heading">Alguns dos meus Projetos Favoritos</h2>
+      <br>
+      <h3 class="section-subheading text-muted"></h3>
+
+    
+
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Perry ! <span class="text-muted">O robô seguidor de Linha.</span></h2>
-        <p class="lead">Fui um dos responsáveis por desenvolver perry para disputar em competições nacionais e internacionais de robótica na categoria seguidor de linha pro. Perry usa de um sistem P&D embarcado em um Arduino Nano para conseguir percorrer o trajeto. Os seus sensores são optoacopladores que conseguem perceber a mínima variação de Luz!</p>
+        <h2 class="featurette-heading fw-normal lh-1">Jogo da Forca!  <span class="text-muted">Um jogo da Forca feito inteiramente em Python.</span></h2>
+        <p class="lead">Programar as vezes pode parecer uma tarefa chata, mas não se você fizer algo que realmente gosta! pensando nisso desenvolvi este joguinho em python usando de variadas bibliotecas dentro da plataforma. Usando um dicionário da lingua portuguesa de 30.000 palavras o jogo da forca gera aleatóriamente para uma interface tkinter desenvolvida com o intuito de ser simples e objetiva.</p>
       </div>
       <div class="col-md-5">
-        <img src="img/perry.jpg" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="img/forca.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
 
       </div>
     </div>
@@ -142,11 +135,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Jogo da Forca! <span class="text-muted">Um jogo da Forca feito inteiramente em Python.</span></h2>
-        <p class="lead">Programar as vezes pode parecer uma tarefa chata, mas não se você fizer algo que realmente gosta! pensando nisso desenvolvi este joguinho em python usando de variadas bibliotecas dentro da plataforma. Usando um dicionário da lingua portuguesa de 30.000 palavras o jogo da forca gera aleatóriamente para uma interface tkinter desenvolvida com o intuito de ser simples e objetiva.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Perry !<span class="text-muted">O robô seguidor de linha.</span></h2>
+        <p class="lead">Fui um dos responsáveis por desenvolver perry para disputar em competições nacionais e internacionais de robótica na categoria seguidor de linha pro. Perry usa de um sistem P&D embarcado em um Arduino Nano para conseguir percorrer o trajeto. Os seus sensores são optoacopladores que conseguem perceber a mínima variação de Luz!</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="img/forca.png" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="img/perry.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
 
       </div>
     </div>
@@ -155,90 +148,237 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Medidor de Campos Elétricos! <span class="text-muted">"Deu trabalho, Viu ?"</span></h2>
+        <h2 class="featurette-heading fw-normal lh-1">Medidor de Campos Elétricos! <span class="text-muted">Deu trabalho, Viu ?</span></h2>
         <p class="lead">Este foi meu projeto de fim de curso na graduação de Engenharia eletrônica, Este medidor é capaz de medir a presença de campos elétricos que podem ser nocivos a saúde humana a partir de 1 KV/m. Baseado no princípio de carga induzida em uma esfera sob influência de campo elétrico.</p>
       </div>
       <div class="col-md-5">
-        <img src="img/sensor.jpg" class="featurette-image rounded float-left img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img src="img/sensor.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
 
       </div>
     </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Dashboards !<span class="text-muted"> Utilizando o Power Bi</span></h2>
+        <p class="lead">Fui responsável por criar APIs para facilitar a criação de dashboards e visualização em tempo real de dados ligados a cadeira produtiva. Esses não posso mostrar mas a gente pode conversar sobre ! haha. Próximos passos são criar visualizações utilizando puramente de python e HTML !</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/Pbi.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
 
+      </div>
+    </div>
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
 
-  </div><!-- /.container -->
-
-   <!-- Team Section -->
-      <div class="container" id="contatos">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Contatos</h2>
-                <h3 class="section-subheading text-muted">Se quiser bater um papo aqui estão minhas redes sociais e currículo!</h3>
-
-  
-  
-              <img src="img/eu.jpg" class="img-fluid rounded-circle align: center;"width="250" height="250" alt="">
-              
-              <ul class="social-media-list">
-                <li><a href="https://twitter.com/lucasbr4l"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
-                <li><a href="https://github.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="GitHub" title="GitHub"></a></li>
-                <li><a href="https://www.youtube.com/channel/UCM1X70L00ffUIgE-QjCOhMQ"><img src="https://unpkg.com/simple-icons@latest/icons/youtube.svg" alt="YouTube" title="YouTube"></a></li>
-                <li><a href="https://www.facebook.com/lucas.carvalho.7587"><img src="https://unpkg.com/simple-icons@latest/icons/facebook.svg" alt="Facebook" title="Facebook"></a></li>
-                <li><a href="mailto:lucasdecarvalhosobral@gmail.com"><img src="https://unpkg.com/simple-icons@latest/icons/gmail.svg" alt="Mail" title="mail"></a></li>
-                <li><a href="https://www.linkedin.com/in/lucasbral/"><img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="Linkedin" title="Linkedin"></a></li>
-                <li><a href="https://www.instagram.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" alt="Instagram" title="Instagram"></a></li>
-                <li><a href="http://lattes.cnpq.br/2090054123050302"><img src="https://unpkg.com/simple-icons@latest/icons/readthedocs.svg" alt="Lattes" title="Lattes"></a></li>
-              </ul>
-            </div>
+    <!-- Modal Curriculo -->
+    <div class="modal fade" id="modalcurriculo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Currículo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <div class="modal-body">
+            <section id="resume" class="resume">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <h3 class="resume-title">Sumário</h3>
+                    <div class="resume-item pb-0">
+                      <h4>Lucas Sobral</h4>
+                      <p><em>Técnico e Engenheiro Eletrônico com Experiência em Businesses Intelligence e Data science.</em></p>
+                      <ul>
+                        <li>Pernambuco, Brasil</li>
+                        <li>+ 55 (81) 99990-1649</li>
+                        <li>lucasdecarvalhosobral@gmail.com</li>
+                      </ul>
+                    </div>
+                    <h3 class="resume-title">Habilidades</h3>
+                    <div class="resume-item">
+                      <div class="container">
+                        <h3 class="progress-title">Microsoft Office Apps</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:90%; background:#1f75c4;">
+                                <div class="progress-value"><span>90</span>%</div>
+                            </div>
+                        </div>
+                        <h3 class="progress-title">Power BI</h3>
+                        <div class="progress">
+                          <div class="progress-bar" style="width:85%; background:#1f75c4;">
+                              <div class="progress-value"><span>80</span>%</div>
+                          </div>
+                        </div>
+                        <h3 class="progress-title">SAP</h3>
+                        <div class="progress">
+                          <div class="progress-bar" style="width:55%; background:#1f75c4;">
+                              <div class="progress-value"><span>55</span>%</div>
+                          </div>
+                        
+                        </div>
+                      </div>
+                    </div>
 
-            <style>
-              ul.social-media-list {
-                  list-style-type: none;
-                  margin: 0;
-                  padding: 0;
-                  font-size: 0px; /* eliminate space between li */
-                  
-                }
+                    <h3 class="resume-title">Idiomas</h3>
+                    <div class="resume-item">
+                      <div class="container">
+                        <h3 class="progress-title">Português</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:100%; background:#1f75c4;">
+                                <div class="progress-value"><span></span></div>
+                            </div>
+                        </div>
+                        <h3 class="progress-title">Inglês</h3>
+                        <div class="progress">
+                          <div class="progress-bar" style="width:70%; background:#1f75c4;">
+                              <div class="progress-value"><span></span></div>
+                          </div>
+                        </div>
+                        <h3 class="progress-title">Espanhol</h3>
+                        <div class="progress">
+                          <div class="progress-bar" style="width:45%; background:#1f75c4;">
+                              <div class="progress-value"><span></span></div>
+                          </div>
+                        </div>
+                        <h3 class="progress-title">Alemão</h3>
+                        <div class="progress">
+                          <div class="progress-bar" style="width:10%; background:#1f75c4;">
+                              <div class="progress-value"><span></span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                        <h3 class="resume-title">Linguagens de Programação</h3>
+                          <div class="resume-item">
+                            <div class="container">
+                              <h3 class="progress-title">Python</h3>
+                              <div class="progress">
+                                  <div class="progress-bar" style="width:70%; background:#1f75c4;">
+                                      <div class="progress-value"><span>70</span>%</div>
+                                  </div>
+                              </div>
+                              <h3 class="progress-title">HTMLS / CSS</h3>
+                              <div class="progress">
+                                <div class="progress-bar" style="width:50%; background:#1f75c4;">
+                                    <div class="progress-value"><span>50</span>%</div>
+                                </div>
+                              </div>
+                              <h3 class="progress-title">C++</h3>
+                              <div class="progress">
+                                <div class="progress-bar" style="width:45%; background:#1f75c4;">
+                                    <div class="progress-value"><span>45</span>%</div>
+                                </div>
+                              </div>
+                              <h3 class="progress-title">Assembly</h3>
+                              <div class="progress">
+                                <div class="progress-bar" style="width:30%; background:#1f75c4;">
+                                    <div class="progress-value"><span>30</span>%</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
 
-                ul.social-media-list li {
-                  display: inline-block;
-                  margin: 2px;
-                  margin-left: auto;
-                  margin-right: auto;
-                }
 
-                ul.social-media-list img {
-                  padding: 5px;
-                  border-radius: 5px;
-                  width: 36px;
-                  height: 36px;
-                }
-
-            </style>
-          
-
-
-     
-
+                  </div>
+                  <div class="col-lg-7">
+                    <h3 class="resume-title">Experiência Profissional</h3>
+                    <div class="resume-item">
+                      <h4>Assistente Administrativo Pleno</h4>
+                      <h5>2021 - Hoje</h5>
+                      <p><em>Mondelez International, Vitória de Santo Antão, Pernambuco </em></p>
+                      <ul>
+                        <li>Visualização de indicadores de produção</li>
+                        <li>Gestão de custos </li>
+                        <li>Acompanhamento projetos de redução de perdas</li>
+                      </ul>
+                    </div>
+                    <div class="resume-item">
+                      <h4>Estagiário de Manufatura</h4>
+                      <h5>2021 - 2021</h5>
+                      <p><em>Mondelez International, Vitória de Santo Antão, Pernambuco</em></p>
+                      <ul>
+                        <li>Compra de materiais para auxilio a manufatura</li>
+                        <li>Auxilio nas atividade de manutenção autônoma</li>
+                      </ul>
+                    </div>
+                    <div class="resume-item">
+                      <h4>Técnico de Laboratório</h4>
+                      <h5>2019 - 2020</h5>
+                      <p><em>Clamper SA, Recife, Pernambuco</em></p>
+                      <ul>
+                        <li>Teste de qualidade acerca de dispositivos de proteção contra surtos</li>
+                        <li>Análise estatistica de correlação para falhas entre dispositivos de proteção contra surtos</li>
+                        <li>Construção de bancada eletrônica para simulação de circuitos</li>
+                        <li>Instalações elétricas prediais e calculo de aterramento</li>
+                      </ul>
+                    </div>
+                    <h3 class="resume-title">Educação</h3>
+                    <div class="resume-item">
+                      <h4>Mestrado em Engenharia de Sistemas</h4>
+                      <h5>2022 - Hoje</h5>
+                      <p><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></p>
+                      <p>Desenvolvimento de modelo matemático para carga e descarga de baterias utilizando temperatura de reação</p>
+                    </div>
+                    <div class="resume-item">
+                      <h4>Bacharelado em Engenharia Elétrica com Ênfase em Eletrônica</h4>
+                      <h5>2015 - 2021</h5>
+                      <p><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></p>
+                      <p></p>
+                    </div>
+                    <div class="resume-item">
+                      <h4>Técnico em Eletrônica</h4>
+                      <h5>2014 - 2016</h5>
+                      <p><em>Serviço Nacional de Aprendizagem Industrial - SENAI</em></p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
   
-  <!-- FOOTER -->
-  <footer class="container">
+   
+    <!-- /END THE FEATURETTES -->
+     
     
-    <p>&copy; 2020-2021 &middot; </a></p>
-  </footer>
-</main>
+    <div class="container" id="contatos">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Contatos</h2>
+                  <h3 class="section-subheading text-muted">Se quiser bater um papo aqui estão minhas redes sociais e currículo!</h3>
 
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
+    
+    
+                <img src="img/eu.jpg" class="img-fluid rounded-circle align: center;"width="250" height="250" alt="">
+                
+                <ul class="social-media-list">
+                  <li><a target= _blank href="https://twitter.com/lucasbr4l"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
+                  <li><a target= _blank href="https://github.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="GitHub" title="GitHub"></a></li>
+                  <li><a target= _blank href="https://www.youtube.com/channel/UCM1X70L00ffUIgE-QjCOhMQ"><img src="https://unpkg.com/simple-icons@latest/icons/youtube.svg" alt="YouTube" title="YouTube"></a></li>
+                  <li><a target= _blank href="https://www.facebook.com/lucas.carvalho.7587"><img src="https://unpkg.com/simple-icons@latest/icons/facebook.svg" alt="Facebook" title="Facebook"></a></li>
+                  <li><a target= _blank href="mailto:lucasdecarvalhosobral@gmail.com"><img src="https://unpkg.com/simple-icons@latest/icons/gmail.svg" alt="Mail" title="mail"></a></li>
+                  <li><a target= _blank href="https://www.linkedin.com/in/lucasbral/"><img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="Linkedin" title="Linkedin"></a></li>
+                  <li><a target= _blank href="https://www.instagram.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" alt="Instagram" title="Instagram"></a></li>
+                  <li><a target= _blank href="http://lattes.cnpq.br/2090054123050302"><img src="https://unpkg.com/simple-icons@latest/icons/readthedocs.svg" alt="Lattes" title="Lattes"></a></li>
+                </ul>
+              </div>
+          </div>
+          
+          <footer class="container">
+            <div class="col-lg-12 text-center">
+              <p>&copy; 2020-2022 &middot; </a></p>
+          </footer>
+    </div> 
+          
+    <main>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/scripts.js"></script>
+    </main>
+  </div>  
+
+
+
 </body>
+
+
 </html>
