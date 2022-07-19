@@ -4,6 +4,13 @@
     text-align: center;
     
   }
+
+
+  .col-md-7 {
+   
+    text-align: center;
+    
+  }
   .marketing h2 {
     font-weight:600 ;
     font-family: "Segoe UI"
@@ -278,6 +285,7 @@
     }
 
     .btn-primary  {
+      align-items: center;
       color: #fff;
       background-color: #000000;
       border-color: #000000;
