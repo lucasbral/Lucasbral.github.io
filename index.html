@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Vem conhecer um pouquinho mais sobre mim !">
@@ -21,8 +21,11 @@
     <link href="css/index.css" rel='stylesheet' />
     
 
-  </head>
+</head>
 
+
+
+<body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
@@ -49,343 +52,337 @@
       </div>
   </nav>
   </header>
+  <main>
+    <div data-bs-spy="scroll" data-bs-target="Navbar" data-bs-root-margin="0px 0px -10%" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
+      
+      <section class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">Opa !</div>
+            <div class="masthead-heading text-uppercase">É um prazer ter você aqui</div>
+            <a class="btn btn-primary" href="#eu">Quem sou eu ?</a>
+        </div>
+      </section>  
 
+    <hr class="featurette-divider">
 
-<body>
-
-  <div data-bs-spy="scroll" data-bs-target="Navbar" data-bs-root-margin="0px 0px -10%" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
-    
-    <header class="masthead">
-      <div class="container">
-          <div class="masthead-subheading">Opa !</div>
-          <div class="masthead-heading text-uppercase">É um prazer ter você aqui</div>
-          <a class="btn btn-primary" href="#eu">Quem sou eu ?</a>
-      </div>
-    </header>  
-
-  <hr class="featurette-divider">
-
-  <div class="container" id="eu">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Quem sou eu ?</h2>
+    <div class="container" id="eu">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Quem sou eu ?</h2>
+          <br>
+          <h3 class="section-subheading text-muted">Sou o Lucas, Brasileiro, 25 anos, Técnico e Engenheiro Eletrônico, as vezes aventureiro e um pouquinho programador ! haha</h3>
+          <div class="home__img">
+            <img src="img/eu.png" alt="">
+          </div>
+        </div>
         <br>
-        <h3 class="section-subheading text-muted">Sou o Lucas, Brasileiro, 25 anos, Técnico e Engenheiro Eletrônico, as vezes aventureiro e um pouquinho programador ! haha</h3>
-        <div class="home__img">
-          <img src="img/eu.png" alt="">
+        <br>
+
+        <h3 class="section-subheading text-muted">Tenho Experiência com:</h3>
+        <br>
+        <div class="container marketing">
+          <div class="row justify-content-md-center">
+            <div class="col-md-3">
+              <img src="img/robotica.jpg" class="bd-placeholder-img rounded-circle mx-auto" alt="Robótica" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+              <h2>Robótica</h2>
+              <p>Sou amante de robótica! Participei de algumas competições nacionais e internacionais nas categorias de desafios inteligentes.</p>
+              <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+              
+            </div>
+            <div class="col-md-3">
+              <img src="img/Python.jpg" class="bd-placeholder-img rounded-circle" alt="Programação" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+              <h2>Programação</h2>
+              <p>Programar hoje é essencial, pensando nisso escolhi a linguagem de programação Python, por ser simples e objetiva. Hoje estou focando em melhorar minhas habilidades em data science por meio desta linguagem.</p>
+              <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col-md-3">
+              <img src="img/BI.jpg" class="bd-placeholder-img rounded-circle" alt="Circuitos eletrônicos" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+              <h2>Business Intelligence </h2>
+              <p>Tenho experiência na indústria com análise de indicadores de produção e performance. Construindo sistemas e visualizações em tempo real para ajudar na tomada de decisões.</p>
+            </div>
+            <div class="col-md-3">
+              <img src="img/GB.png" class="bd-placeholder-img rounded-circle" alt="Circuitos eletrônicos" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+              <h2>Lean Six Sigma</h2>
+              <p>Também na indústria pude conhecer a metodologia Lean e Six Sigma, aplicando das suas mais diversas ferramentas. Tornando-me assim um Green Belt.</p>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="container" id="projetos">
+        <hr class="featurette-divider">
+
+        <h2 class="section-heading">Alguns dos meus Projetos Favoritos</h2>
+
+      
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Perry !<span class="text-muted">O robô seguidor de linha.</span></h2>
+          <p class="lead">Fui um dos responsáveis por desenvolver Perry para disputar em competições nacionais e internacionais de robótica na categoria seguidor de linha pro. Perry usa de um sistema P&D embarcado em um Arduino Nano para conseguir percorrer o trajeto. Os seus sensores são optoacopladores que conseguem perceber a mínima variação de Luz!</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="img/perry.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
+
         </div>
       </div>
-      <br>
-      <br>
-
-      <h3 class="section-subheading text-muted">Tenho Experiência com:</h3>
-      <br>
-      <div class="container marketing">
-        <div class="row justify-content-md-center">
-          <div class="col-md-3">
-            <img src="img/robotica.jpg" class="bd-placeholder-img rounded-circle mx-auto" alt="Robótica" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false">
-
-            <h2>Robótica</h2>
-            <p>Sou amante de robótica! Participei de algumas competições nacionais e internacionais nas categorias de desafios inteligentes.</p>
-            <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
-            
-          </div>
-          <div class="col-md-3">
-            <img src="img/Python.jpg" class="bd-placeholder-img rounded-circle" alt="Programação" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-            <h2>Programação</h2>
-            <p>Programar hoje é essencial, pensando nisso escolhi a linguagem de programação Python, por ser simples e objetiva. Hoje estou focando em melhorar minhas habilidades em data science por meio desta linguagem.</p>
-            <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
-          </div>
-          <div class="col-md-3">
-            <img src="img/BI.jpg" class="bd-placeholder-img rounded-circle" alt="Circuitos eletrônicos" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-
-            <h2>Business Intelligence </h2>
-            <p>Tenho experiência na indústria com análise de indicadores de produção e performance. Construindo sistemas e visualizações em tempo real para ajudar na tomada de decisões.</p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/GB.png" class="bd-placeholder-img rounded-circle" alt="Circuitos eletrônicos" width="150" height="150" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-
-            <h2>Lean Six Sigma</h2>
-            <p>Também na indústria pude conhecer a metodologia Lean e Six Sigma, aplicando das suas mais diversas ferramentas. Tornando-me assim um Green Belt.</p>
-          </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Jogo da Forca!  <span class="text-muted">Um jogo da Forca feito inteiramente em Python.</span></h2>
+          <p class="lead">Programar as vezes pode parecer uma tarefa chata, mas não se você fizer algo que realmente gosta. Pensando nisso desenvolvi este joguinho em python usando de variadas bibliotecas dentro da plataforma. Usando um dicionário da língua portuguesa de 30.000 palavras, o jogo da forca gera aleatoriamente palavras para uma interface tkinter desenvolvida com o intuito de ser simples e objetiva.</p>
+          <a class="btn btn-primary" target= _blank href="https://github.com/lucasbral/Jogo_da_forca/raw/main/jogo%20da%20forca.rar">Download</a>
         </div>
-      </div>  
-    </div>
+        <div class="col-md-5">
+          <img src="img/forca.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
+          
+        </div>
+      </div>
 
-    <div class="container" id="projetos">
       <hr class="featurette-divider">
 
-      <h2 class="section-heading">Alguns dos meus Projetos Favoritos</h2>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Medidor de Campos Elétricos! <span class="text-muted">Deu trabalho, Viu ?</span></h2>
+          <p class="lead">Este foi meu projeto de fim de curso na graduação de Engenharia Eletrônica. Este medidor é capaz de medir a presença de campos elétricos que podem ser nocivos a saúde humana a partir de 1 KV/m. Baseado no princípio de carga induzida em uma esfera sob influência de campo elétrico.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/sensor.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
 
-    
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Dashboards !<span class="text-muted"> Utilizando o Power BI</span></h2>
+          <p class="lead">Fui responsável por criar APIs para facilitar a criação de dashboards e visualização em tempo real de dados ligados a cadeira produtiva. Esses não posso mostrar mas a gente pode conversar sobre ! haha. Próximos passos são criar visualizações utilizando puramente de python e HTML !</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="img/Pbi.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Perry !<span class="text-muted">O robô seguidor de linha.</span></h2>
-        <p class="lead">Fui um dos responsáveis por desenvolver Perry para disputar em competições nacionais e internacionais de robótica na categoria seguidor de linha pro. Perry usa de um sistema P&D embarcado em um Arduino Nano para conseguir percorrer o trajeto. Os seus sensores são optoacopladores que conseguem perceber a mínima variação de Luz!</p>
+        </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <img src="img/perry.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
+      
+      </div>
 
-      </div>
-    </div>
-    <hr class="featurette-divider">
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Jogo da Forca!  <span class="text-muted">Um jogo da Forca feito inteiramente em Python.</span></h2>
-        <p class="lead">Programar as vezes pode parecer uma tarefa chata, mas não se você fizer algo que realmente gosta. Pensando nisso desenvolvi este joguinho em python usando de variadas bibliotecas dentro da plataforma. Usando um dicionário da língua portuguesa de 30.000 palavras, o jogo da forca gera aleatoriamente palavras para uma interface tkinter desenvolvida com o intuito de ser simples e objetiva.</p>
-        <a class="btn btn-primary" target= _blank href="https://github.com/lucasbral/Jogo_da_forca/raw/main/jogo%20da%20forca.rar">Download</a>
-      </div>
-      <div class="col-md-5">
-        <img src="img/forca.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
-         
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Medidor de Campos Elétricos! <span class="text-muted">Deu trabalho, Viu ?</span></h2>
-        <p class="lead">Este foi meu projeto de fim de curso na graduação de Engenharia Eletrônica. Este medidor é capaz de medir a presença de campos elétricos que podem ser nocivos a saúde humana a partir de 1 KV/m. Baseado no princípio de carga induzida em uma esfera sob influência de campo elétrico.</p>
-      </div>
-      <div class="col-md-5">
-        <img src="img/sensor.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
-
-      </div>
-    </div>
-    <hr class="featurette-divider">
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Dashboards !<span class="text-muted"> Utilizando o Power BI</span></h2>
-        <p class="lead">Fui responsável por criar APIs para facilitar a criação de dashboards e visualização em tempo real de dados ligados a cadeira produtiva. Esses não posso mostrar mas a gente pode conversar sobre ! haha. Próximos passos são criar visualizações utilizando puramente de python e HTML !</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="img/Pbi.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
-
-      </div>
-    </div>
-    
-    </div>
-
-    <!-- Modal Curriculo -->
-    <div class="modal fade" id="modalcurriculo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Currículo</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <section id="resume" class="resume">
-                <div class="row">
-                  <div class="col-lg-5">
-                    <h3 class="resume-title">Sumário</h3>
-                    <div class="resume-item pb-0">
-                      <h4>Lucas Sobral</h4>
-                      <p><em>Técnico e Engenheiro Eletrônico com Experiência em Businesses Intelligence e Data science.</em></p>
-                      <ul>
-                        <li>Pernambuco, Brasil</li>
-                        <li>+ 55 (81) 99990-1649</li>
-                        <li>lucasdecarvalhosobral@gmail.com</li>
-                      </ul>
-                    </div>
-                    <h3 class="resume-title">Habilidades</h3>
-                    <div class="resume-item">
-                      <div class="container">
-                        <h3 class="progress-title">Microsoft Office Apps</h3>
-                        <div class="progress">
-                            <div class="progress-bar" style="width:90%; background:#1f75c4;">
-                                <div class="progress-value"><span>90</span>%</div>
+      <!-- Modal Curriculo -->
+      <div class="modal fade" id="modalcurriculo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Currículo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <section id="resume" class="resume">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <h3 class="resume-title">Sumário</h3>
+                      <div class="resume-item pb-0">
+                        <h4>Lucas Sobral</h4>
+                        <p><em>Técnico e Engenheiro Eletrônico com Experiência em Businesses Intelligence e Data science.</em></p>
+                        <ul>
+                          <li>Pernambuco, Brasil</li>
+                          <li>+ 55 (81) 99990-1649</li>
+                          <li>lucasdecarvalhosobral@gmail.com</li>
+                        </ul>
+                      </div>
+                      <h3 class="resume-title">Habilidades</h3>
+                      <div class="resume-item">
+                        <div class="container">
+                          <h3 class="progress-title">Microsoft Office Apps</h3>
+                          <div class="progress">
+                              <div class="progress-bar" style="width:90%; background:#1f75c4;">
+                                  <div class="progress-value"><span>90</span>%</div>
+                              </div>
+                          </div>
+                          <h3 class="progress-title">Power BI</h3>
+                          <div class="progress">
+                            <div class="progress-bar" style="width:85%; background:#1f75c4;">
+                                <div class="progress-value"><span>80</span>%</div>
                             </div>
-                        </div>
-                        <h3 class="progress-title">Power BI</h3>
-                        <div class="progress">
-                          <div class="progress-bar" style="width:85%; background:#1f75c4;">
-                              <div class="progress-value"><span>80</span>%</div>
                           </div>
-                        </div>
-                        <h3 class="progress-title">SAP</h3>
-                        <div class="progress">
-                          <div class="progress-bar" style="width:55%; background:#1f75c4;">
-                              <div class="progress-value"><span>55</span>%</div>
+                          <h3 class="progress-title">SAP</h3>
+                          <div class="progress">
+                            <div class="progress-bar" style="width:55%; background:#1f75c4;">
+                                <div class="progress-value"><span>55</span>%</div>
+                            </div>
+                          
                           </div>
-                        
                         </div>
                       </div>
-                    </div>
 
-                    <h3 class="resume-title">Idiomas</h3>
-                    <div class="resume-item">
-                      <div class="container">
-                        <h3 class="progress-title">Português</h3>
-                        <div class="progress">
-                            <div class="progress-bar" style="width:100%; background:#1f75c4;">
+                      <h3 class="resume-title">Idiomas</h3>
+                      <div class="resume-item">
+                        <div class="container">
+                          <h3 class="progress-title">Português</h3>
+                          <div class="progress">
+                              <div class="progress-bar" style="width:100%; background:#1f75c4;">
+                                  <div class="progress-value"><span></span></div>
+                              </div>
+                          </div>
+                          <h3 class="progress-title">Inglês</h3>
+                          <div class="progress">
+                            <div class="progress-bar" style="width:70%; background:#1f75c4;">
                                 <div class="progress-value"><span></span></div>
                             </div>
-                        </div>
-                        <h3 class="progress-title">Inglês</h3>
-                        <div class="progress">
-                          <div class="progress-bar" style="width:70%; background:#1f75c4;">
-                              <div class="progress-value"><span></span></div>
                           </div>
-                        </div>
-                        <h3 class="progress-title">Espanhol</h3>
-                        <div class="progress">
-                          <div class="progress-bar" style="width:45%; background:#1f75c4;">
-                              <div class="progress-value"><span></span></div>
+                          <h3 class="progress-title">Espanhol</h3>
+                          <div class="progress">
+                            <div class="progress-bar" style="width:45%; background:#1f75c4;">
+                                <div class="progress-value"><span></span></div>
+                            </div>
                           </div>
-                        </div>
-                        <h3 class="progress-title">Alemão</h3>
-                        <div class="progress">
-                          <div class="progress-bar" style="width:10%; background:#1f75c4;">
-                              <div class="progress-value"><span></span></div>
+                          <h3 class="progress-title">Alemão</h3>
+                          <div class="progress">
+                            <div class="progress-bar" style="width:10%; background:#1f75c4;">
+                                <div class="progress-value"><span></span></div>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                        <h3 class="resume-title">Linguagens de Programação</h3>
-                          <div class="resume-item">
-                            <div class="container">
-                              <h3 class="progress-title">Python</h3>
-                              <div class="progress">
-                                  <div class="progress-bar" style="width:70%; background:#1f75c4;">
-                                      <div class="progress-value"><span>70</span>%</div>
+                          <h3 class="resume-title">Linguagens de Programação</h3>
+                            <div class="resume-item">
+                              <div class="container">
+                                <h3 class="progress-title">Python</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:70%; background:#1f75c4;">
+                                        <div class="progress-value"><span>70</span>%</div>
+                                    </div>
+                                </div>
+                                <h3 class="progress-title">HTMLS / CSS</h3>
+                                <div class="progress">
+                                  <div class="progress-bar" style="width:50%; background:#1f75c4;">
+                                      <div class="progress-value"><span>50</span>%</div>
                                   </div>
-                              </div>
-                              <h3 class="progress-title">HTMLS / CSS</h3>
-                              <div class="progress">
-                                <div class="progress-bar" style="width:50%; background:#1f75c4;">
-                                    <div class="progress-value"><span>50</span>%</div>
                                 </div>
-                              </div>
-                              <h3 class="progress-title">C++</h3>
-                              <div class="progress">
-                                <div class="progress-bar" style="width:45%; background:#1f75c4;">
-                                    <div class="progress-value"><span>45</span>%</div>
+                                <h3 class="progress-title">C++</h3>
+                                <div class="progress">
+                                  <div class="progress-bar" style="width:45%; background:#1f75c4;">
+                                      <div class="progress-value"><span>45</span>%</div>
+                                  </div>
                                 </div>
-                              </div>
-                              
-                              
-                              <h3 class="progress-title">SQL</h3>
-                              <div class="progress">
-                                <div class="progress-bar" style="width:40%; background:#1f75c4;">
-                                    <div class="progress-value"><span>40</span>%</div>
+                                
+                                
+                                <h3 class="progress-title">SQL</h3>
+                                <div class="progress">
+                                  <div class="progress-bar" style="width:40%; background:#1f75c4;">
+                                      <div class="progress-value"><span>40</span>%</div>
+                                  </div>
                                 </div>
-                              </div>
-                               <h3 class="progress-title">Assembly</h3>
-                              <div class="progress">
-                                <div class="progress-bar" style="width:30%; background:#1f75c4;">
-                                    <div class="progress-value"><span>30</span>%</div>
+                                <h3 class="progress-title">Assembly</h3>
+                                <div class="progress">
+                                  <div class="progress-bar" style="width:30%; background:#1f75c4;">
+                                      <div class="progress-value"><span>30</span>%</div>
+                                  </div>
                                 </div>
+                                
                               </div>
-                              
                             </div>
-                          </div>
-                          
+                            
 
 
+                    </div>
+                    <div class="col-lg-7">
+                      <h3 class="resume-title">Experiência Profissional</h3>
+                      <div class="resume-item">
+                        <h4>Assistente Administrativo Pleno</h4>
+                        <h5>Nov/2021 - Hoje</h5>
+                        <p><em>Mondelez International, Vitória de Santo Antão, Pernambuco </em></p>
+                        <ul>
+                          <li>Visualização de indicadores de produção</li>
+                          <li>Gestão de custos </li>
+                          <li>Acompanhamento de projetos com foco na redução de perdas</li>
+                        </ul>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Estagiário de Manufatura</h4>
+                        <h5>Fev/2021 - Nov/2021</h5>
+                        <p><em>Mondelez International, Vitória de Santo Antão, Pernambuco</em></p>
+                        <ul>
+                          <li>Compra de materiais para auxílio a manufatura</li>
+                          <li>Auxílio nas atividade de manutenção autônoma</li>
+                        </ul>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Técnico de Laboratório</h4>
+                        <h5>Jun/2019 - Jun/2020</h5>
+                        <p><em>Clamper SA, Recife, Pernambuco</em></p>
+                        <ul>
+                          <li>Teste de qualidade acerca de dispositivos de proteção contra surtos</li>
+                          <li>Análise estatística de correlação para falhas entre dispositivos de proteção contra surtos</li>
+                          <li>Construção de bancada eletrônica para simulação de circuitos</li>
+                          <li>Instalações elétricas prediais e cálculo de aterramento</li>
+                        </ul>
+                      </div>
+                      <h3 class="resume-title">Educação</h3>
+                      <div class="resume-item">
+                        <h4>Mestrado em Engenharia de Sistemas</h4>
+                        <h5>2022 - Hoje</h5>
+                        <p><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></p>
+                        <p>Desenvolvimento de modelo matemático para carga e descarga de baterias utilizando temperatura de reação</p>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Bacharelado em Engenharia Elétrica com Ênfase em Eletrônica</h4>
+                        <h5>2015 - 2021</h5>
+                        <p><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></p>
+                        <p></p>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Técnico em Eletrônica</h4>
+                        <h5>2014 - 2016</h5>
+                        <p><em>Serviço Nacional de Aprendizagem Industrial - SENAI</em></p>
+                        <p></p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-lg-7">
-                    <h3 class="resume-title">Experiência Profissional</h3>
-                    <div class="resume-item">
-                      <h4>Assistente Administrativo Pleno</h4>
-                      <h5>Nov/2021 - Hoje</h5>
-                      <p><em>Mondelez International, Vitória de Santo Antão, Pernambuco </em></p>
-                      <ul>
-                        <li>Visualização de indicadores de produção</li>
-                        <li>Gestão de custos </li>
-                        <li>Acompanhamento de projetos com foco na redução de perdas</li>
-                      </ul>
-                    </div>
-                    <div class="resume-item">
-                      <h4>Estagiário de Manufatura</h4>
-                      <h5>Fev/2021 - Nov/2021</h5>
-                      <p><em>Mondelez International, Vitória de Santo Antão, Pernambuco</em></p>
-                      <ul>
-                        <li>Compra de materiais para auxílio a manufatura</li>
-                        <li>Auxílio nas atividade de manutenção autônoma</li>
-                      </ul>
-                    </div>
-                    <div class="resume-item">
-                      <h4>Técnico de Laboratório</h4>
-                      <h5>Jun/2019 - Jun/2020</h5>
-                      <p><em>Clamper SA, Recife, Pernambuco</em></p>
-                      <ul>
-                        <li>Teste de qualidade acerca de dispositivos de proteção contra surtos</li>
-                        <li>Análise estatística de correlação para falhas entre dispositivos de proteção contra surtos</li>
-                        <li>Construção de bancada eletrônica para simulação de circuitos</li>
-                        <li>Instalações elétricas prediais e cálculo de aterramento</li>
-                      </ul>
-                    </div>
-                    <h3 class="resume-title">Educação</h3>
-                    <div class="resume-item">
-                      <h4>Mestrado em Engenharia de Sistemas</h4>
-                      <h5>2022 - Hoje</h5>
-                      <p><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></p>
-                      <p>Desenvolvimento de modelo matemático para carga e descarga de baterias utilizando temperatura de reação</p>
-                    </div>
-                    <div class="resume-item">
-                      <h4>Bacharelado em Engenharia Elétrica com Ênfase em Eletrônica</h4>
-                      <h5>2015 - 2021</h5>
-                      <p><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></p>
-                      <p></p>
-                    </div>
-                    <div class="resume-item">
-                      <h4>Técnico em Eletrônica</h4>
-                      <h5>2014 - 2016</h5>
-                      <p><em>Serviço Nacional de Aprendizagem Industrial - SENAI</em></p>
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  
-   
-    <!-- /END THE FEATURETTES -->
-     
-    <hr class="featurette-divider">
-    <div class="container" id="contatos">
+    
+    
+      <!-- /END THE FEATURETTES -->
       
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Contatos</h2>
-                  <h3 class="section-subheading text-muted">Se quiser bater um papo, aqui estão minhas redes sociais !</h3>
+      <hr class="featurette-divider">
+      <div class="container" id="contatos">
+        
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contatos</h2>
+                    <h3 class="section-subheading text-muted">Se quiser bater um papo, aqui estão minhas redes sociais !</h3>
 
-    
-    
-                <img src="img/eu.jpg" class="img-fluid rounded-circle align: center;"width="250" height="250" alt="">
-                
-                <ul class="social-media-list">
-                  <li><a target= _blank href="https://twitter.com/lucasbr4l"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
-                  <li><a target= _blank href="https://github.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="GitHub" title="GitHub"></a></li>
-                  <li><a target= _blank href="https://www.youtube.com/channel/UCM1X70L00ffUIgE-QjCOhMQ"><img src="https://unpkg.com/simple-icons@latest/icons/youtube.svg" alt="YouTube" title="YouTube"></a></li>
-                  <li><a target= _blank href="https://www.facebook.com/lucas.carvalho.7587"><img src="https://unpkg.com/simple-icons@latest/icons/facebook.svg" alt="Facebook" title="Facebook"></a></li>
-                  <li><a target= _blank href="mailto:lucasdecarvalhosobral@gmail.com"><img src="https://unpkg.com/simple-icons@latest/icons/gmail.svg" alt="Mail" title="mail"></a></li>
-                  <li><a target= _blank href="https://www.linkedin.com/in/lucasbral/"><img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="Linkedin" title="Linkedin"></a></li>
-                  <li><a target= _blank href="https://www.instagram.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" alt="Instagram" title="Instagram"></a></li>
-                  <li><a target= _blank href="http://lattes.cnpq.br/2090054123050302"><img src="https://unpkg.com/simple-icons@latest/icons/readthedocs.svg" alt="Lattes" title="Lattes"></a></li>
-                </ul>
-              </div>
-          </div>
-          
-          <footer class="container">
-            <div class="col-lg-12 text-center">
-              <p>&copy; 2020-2022 &middot; </a></p>
-          </footer>
-    </div> 
-          
-    <main>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/scripts.js"></script>
-    </main>
-  </div>  
-
-
-
+      
+      
+                  <img src="img/eu.jpg" class="img-fluid rounded-circle align: center;"width="250" height="250" alt="">
+                  
+                  <ul class="social-media-list">
+                    <li><a target= _blank href="https://twitter.com/lucasbr4l"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
+                    <li><a target= _blank href="https://github.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="GitHub" title="GitHub"></a></li>
+                    <li><a target= _blank href="https://www.youtube.com/channel/UCM1X70L00ffUIgE-QjCOhMQ"><img src="https://unpkg.com/simple-icons@latest/icons/youtube.svg" alt="YouTube" title="YouTube"></a></li>
+                    <li><a target= _blank href="https://www.facebook.com/lucas.carvalho.7587"><img src="https://unpkg.com/simple-icons@latest/icons/facebook.svg" alt="Facebook" title="Facebook"></a></li>
+                    <li><a target= _blank href="mailto:lucasdecarvalhosobral@gmail.com"><img src="https://unpkg.com/simple-icons@latest/icons/gmail.svg" alt="Mail" title="mail"></a></li>
+                    <li><a target= _blank href="https://www.linkedin.com/in/lucasbral/"><img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="Linkedin" title="Linkedin"></a></li>
+                    <li><a target= _blank href="https://www.instagram.com/lucasbral"><img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" alt="Instagram" title="Instagram"></a></li>
+                    <li><a target= _blank href="http://lattes.cnpq.br/2090054123050302"><img src="https://unpkg.com/simple-icons@latest/icons/readthedocs.svg" alt="Lattes" title="Lattes"></a></li>
+                  </ul>
+                </div>
+            </div>
+            
+            
+      </div> 
+            
+      
+        <script defer src="js/bootstrap.bundle.min.js"></script>
+        <script defer src="js/scripts.js"></script>
+      
+    </div>  
+  </main>
+  <footer class="container">
+    <div class="col-lg-12 text-center">
+      <p>&copy; 2020-2022 &middot; </a></p>
+  </footer>
 </body>
-
-
 </html>
