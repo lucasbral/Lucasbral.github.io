@@ -60,8 +60,7 @@
     font-family: "Segoe UI";
     font-size: 45px;
     margin: 4rem 0;
-    
-    
+
   }
 
 
@@ -213,7 +212,7 @@
       padding-bottom: 6rem;
       text-align: center;
       color: #fff;
-      background-image: url("../img/home.jpg");
+      background-image: url("https://i.imgur.com/e1F4u59.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -272,6 +271,7 @@
       font-size: 1rem;
       border-radius: 0.25rem;
       transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      margin: 10px;
      
     }
     @media (prefers-reduced-motion: reduce) {
@@ -337,7 +337,7 @@
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #000000;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -346,7 +346,7 @@
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #000000;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -375,7 +375,7 @@
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #000000;
 }
 
 .progress-title{
@@ -435,4 +435,41 @@
   100%{
     transform: translateY(26px);
   }
+}
+
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+.col-md-4{
+  background: #4c5155;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-8{
+  background: #fff;
+
+}
+.contact-form label{
+  font-weight:600;
+}
+
+
+h6 {
+  text-align:justify;
+  font-family: "Segoe UI";
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 5ch;
+  
 }

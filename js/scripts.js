@@ -53,19 +53,25 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-
- /**
-   * Hero type effect
-   */
-  const typed = select('.typed')
-  if (typed) {
-    let typed_strings = typed.getAttribute('data-typed-items')
-    typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+  function SendEmail(){
+    Email.send({
+        SecureToken : "6a55bd40-00b2-457d-84ad-42cabe27d70f",
+        To : 'lucasdecarvalhosobral@gmail.com',
+        From : "lucasdecarvalhosobral@gmail.com",
+        Subject : "Nova Mensagem do Site",
+        Body : "Nome: " + document.getElementById("name").value +
+        "<br> Email: " + document.getElementById("email").value +
+        "<br> Telefone: " + document.getElementById("phone").value +
+        "<br> Mensagem: " + document.getElementById("message").value
+        
+    }).then(function(response){
+        if (response == 'OK') {
+            alert("Mensagem enviada !")
+            }
+        else {
+            alert(response.statusText);
+                throw new Error("Error:" + response);
+            }
     });
-  }
+    }
+
