@@ -75,3 +75,65 @@ window.addEventListener('DOMContentLoaded', event => {
     });
     }
 
+    window.onload = () => {
+        const words = [
+            { key:"The Weeknd", value: 9   },
+            { key:"Pink Floyd", value:5},
+            { key:"Chico Science", value:3},
+            { key:"Legião Urbana", value: 2},
+            { key:"Post Malone", value: 2},
+            { key:"Guns N' Roses", value: 2},
+            { key:"TIAGO IORC", value: 1},
+            { key:"Linkin Park", value: 1},
+            { key:"Iron Maiden", value: 1},
+            { key:"Charlie Brown Jr.", value: 1},
+            { key:"Matanza", value: 1},
+            { key:"Raul Seixas", value: 1},
+            { key:"Eminem", value: 1},
+            { key:"David Guetta", value: 1},
+            { key:"System Of A Down", value: 1},
+            { key:"BaianaSystem", value: 1},
+            { key:"Rammstein", value: 1},
+            { key:"Daft Punk", value: 1},
+            { key:"Nação Zumbi", value: 3},
+            { key:"Scorpions", value: 1},
+            { key:"Sia", value: 1},
+            { key:"Caetano Veloso", value: 1},
+            { key:"David Bowie", value: 1},
+            { key:"Metallica", value: 1},
+            { key:"Emicida", value: 1},
+            { key:"Doja Cat", value: 1},
+            { key:"Twenty One Pilots", value: 1},
+            { key:"AC/DC", value: 1},
+            { key:"Bob Marley & The Wailers", value: 1},
+            { key:"DUDA BEAT", value: 1},
+            { key:"Slipknot", value: 1},
+            { key:"Queen", value: 1},
+            { key:"Gorillaz", value: 1},
+        ];
+        const data = {
+          labels: words.map((d) => d.key),
+          datasets: [
+            {
+              label: '',
+              data: words.map((d) => 10 + d.value * 5),
+            },
+          ],
+        };
+        const ctx = document.getElementById('canvas').getContext('2d');
+        window.myBar = new Chart(ctx, {
+          type: 'wordCloud',
+          data: data,
+          options: {
+            title: {
+              display: true,
+              text: 'Chart.js Word Cloud',
+            },
+            plugins: {
+              legend: {
+                display: false,
+              },
+            },
+          },
+        });
+      };
