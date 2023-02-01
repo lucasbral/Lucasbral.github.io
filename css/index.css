@@ -645,3 +645,14 @@
   outline: none;
   box-shadow: none;
 }
+
+.container2{
+  width: 500px; 
+  height: 500px
+
+}
+
+canvas {
+  width: 100%;
+  object-fit: contain;
+}
