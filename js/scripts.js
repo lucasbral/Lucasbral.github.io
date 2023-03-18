@@ -116,7 +116,7 @@ window.addEventListener('DOMContentLoaded', event => {
           datasets: [
             {
               label: '',
-              data: words.map((d) => 10 + d.value * 5),
+              data: words.map((d) =>9 + d.value * 5),
             },
           ],
         };
