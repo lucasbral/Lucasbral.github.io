@@ -207,6 +207,25 @@
     }
   }
 
+    
+      section.masthead2 {
+        padding-top: 3.5rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        color: #212529;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+      }
+
+      section.masthead2 {
+        /* Adicionar as linhas abaixo */
+        background-color: #212529;/* Define a cor de fundo como preto */
+        width: 100%; /* Define a largura como 100% do container */
+        height: 50px; /* Define a altura como 400px (ajuste conforme necessário) */
+      }
+    
      section.masthead {
       padding-top: 10.5rem;
       padding-bottom: 6rem;
@@ -313,8 +332,6 @@
       box-shadow: none
     }
     
-    
-    
   /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -338,8 +355,13 @@
   margin-top: -2px;
   border-left: 2px solid #000000;
   position: relative;
+  
 }
 .resume .resume-item h4 {
+  
+  align-items: center; /* Centers content vertically */
+  text-align: center;
+  position: relative;
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -350,16 +372,21 @@
   
 }
 .resume .resume-item h5 {
+  align-items: center; /* Centers content vertically */
+  text-align: center;
+  position: relative;
   font-size: 16px;
   background: #f7f8f9;
   padding: 5px 15px;
-  display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
   
 }
 
 .resume .resume-item h6 {
+  align-items: center; /* Centers content vertically */
+  text-align: center;
+  position: relative;
   font-family: "Poppins", sans-serif;
   line-height: 12px;
   font-size: 14px;

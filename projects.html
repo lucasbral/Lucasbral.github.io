@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vem conhecer um pouquinho mais sobre mim !">
+    <meta name="descrição" content="Vem conhecer um pouquinho mais sobre mim !">
+    <meta name="author" content="Lucas Sobral">
+    <meta property="og:title" content="Lucas Sobral">
+    <meta property="og:site_name" content="Lucas Sobral">
+    <title>Lucas Sobral - Projetos</title>
+
+    <link rel="icon"href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/index.css" rel='stylesheet' />
+    
+
+</head>
+
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Lucas Sobral <img src="img/icon.png" alt="Logo" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Eu</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#01" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mais
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a data-bs-toggle="modal" data-bs-target="#modalcurriculo" class ="nav-link"href="#modalcurriculo">Currículo</a></li>
+                      <li><a data-bs-toggle="modal" data-bs-target="#modalcertificados" class ="nav-link"href="#modalcertificados">Certificados</a></li>
+                    </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  </header>
+  <main>
+    <div data-bs-spy="scroll" data-bs-target="Navbar" data-bs-root-margin="0px 0px -10%" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
+      <!-- Home image -->
+      <section class="masthead2">
+      </section>  
+
+    
+    
+    <h2 class="section-heading">Todos os meus Projetos</h2>
+      
+      <!-- Projetos -->
+      <div class="container" id="projetos">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Perry !<span class="text-muted"> O robô seguidor de linha.</span></h2>
+          <p class="lead">Fui um dos responsáveis por desenvolver Perry para disputar em competições nacionais e internacionais de robótica na categoria seguidor de linha pro. Perry usa de um sistema P&D embarcado em um Arduino Nano para conseguir percorrer o trajeto. Os seus sensores são optoacopladores que conseguem perceber a mínima variação de Luz!</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="img/perry.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
+
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Jogo da Forca!  <span class="text-muted">Um jogo da Forca feito inteiramente em Python.</span></h2>
+          <p class="lead">Programar às vezes pode parecer uma tarefa chata, mas não se você fizer algo que realmente gosta. Pensando nisso desenvolvi este joguinho em python usando de variadas bibliotecas dentro da plataforma. Usando um dicionário da língua portuguesa de 30.000 palavras, o jogo da forca gera aleatoriamente palavras para uma interface tkinter desenvolvida com o intuito de ser simples e objetiva.</p>
+          <a class="btn btn-primary" target= _blank href="https://github.com/lucasbral/Jogo_da_forca/raw/main/jogo%20da%20forca.rar">Download</a>
+        </div>
+        <div class="col-md-5">
+          <img src="img/forca.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
+          
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">SpotiPy ! <span class="text-muted">Uma análise do que escuto utilizando a API do spotify</span></h2>
+          <p class="lead">Este projeto utiliza da API do spotify para acessar os meus dados de utilização da plataforma. Com os dados em mãos foi feita uma análise utilizando pandas e um dos insights foi em relação aos artistas que mais ouço dentro de um ano. O chart cloud foi feito por meio do Chart.js.</p>
+        </div>
+        <div class="col-md-5">
+          <div id="container2" ></div>
+            <canvas id="canvas"></canvas>
+          </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Dashboards !  <span class="text-muted">Utilizando o Power BI</span></h2>
+          <p class="lead">Fui responsável por criar APIs para facilitar a criação de dashboards e visualização em tempo real de dados ligados a cadeira produtiva. Esses não posso mostrar, mas a gente pode conversar sobre !</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/pbi.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
+          
+        </div>
+	    </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Engenharia de Dados ! <span class="text-muted">utilizando a GCP</span></h2>
+          <p class="lead">Neste projeto, utilizamos algumas ferramentas cloud para construir uma plataforma Front-end regulada por meio de um balanceador de carga HTTP, o servidor web hospedava um dashboard criado no Looker Studio com uma análise dos dados de medições automáticas de mais de 200 bases de medição do INMET (Instituto Nacional de Meterologia) espalhadas pelo Brasil. O tratamento dos dados foi feito utilizando Pandas e Pyspark e também foi feito o uso de Pipelines com Apache Beam.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/data-eng.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="150%" height="150%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></img>
+
+        </div>
+      </div>
+      
+      </div>
+    
+      <!-- Modal Curriculo -->
+      <div class="modal fade" id="modalcurriculo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Currículo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <section id="resume" class="resume">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <h3 class="resume-title">Sumário</h3>
+                      <div class="resume-item pb-0">
+                        <h4>Lucas Sobral</h4>
+                        <p><em>Técnico e Engenheiro Eletrônico com Experiência em Businesses Intelligence e Data Science.</em></p>
+                        <ul>
+                          <li>Pernambuco, Brasil</li>
+                          <li>+ 55 (81) 99990-1649</li>
+                          <li>lucasdecarvalhosobral@gmail.com</li>
+                        </ul>
+                      </div>
+                      <h3 class="resume-title">Habilidades</h3>
+                      <div class="resume-item">
+                        <div class="container">
+                          <li>
+                            <span class="skill-name">Português</span>
+                            <span class="skill-proficiency">Nativo</span>
+                          </li>
+                          <li>
+                            <span class="skill-name">Inglês</span>
+                            <span class="skill-proficiency">Intermediário</span>
+                          </li>
+                          <li>
+                            <span class="skill-name">Espanhol</span>
+                            <span class="skill-proficiency">Básico</span>
+                          </li>
+                          
+                        
+                        </div>
+                      </div>
+
+                      <h3 class="resume-title">Idiomas</h3>
+                      <div class="resume-item">
+                        <div class="container">
+                          <li>
+                            <span class="skill-name">Português</span>
+                            <span class="skill-proficiency">Nativo</span>
+                          </li>
+                          <li>
+                            <span class="skill-name">Inglês</span>
+                            <span class="skill-proficiency">Intermediário</span>
+                          </li>
+                          <li>
+                            <span class="skill-name">Espanhol</span>
+                            <span class="skill-proficiency">Básico</span>
+                          </li>
+                        </div>
+                      </div>
+                          <h3 class="resume-title">Linguagens de Programação</h3>
+                            <div class="resume-item">
+                              <div class="container">
+                                <ul class="resume-skills-list">
+                                  <li>
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-proficiency">Intermediário</span>
+                                  </li>
+                                  <li>
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <span class="skill-proficiency">Iniciante</span>
+                                  </li>
+                                  <li>
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-proficiency">Básico</span>
+                                  </li>
+                                </ul>
+                               
+                                
+                              </div>
+                            </div>
+
+                    </div>
+                    <div class="col-lg-7">
+                      <h3 class="resume-title">Experiência Profissional</h3>
+                      <div class="resume-item">
+                        <h4>Assistente Administrativo Pleno</h4>
+                        <h5>Nov/2021 - Set/2022</h5>
+                        <h6><em>Mondelez International, Vitória de Santo Antão, Pernambuco </em></h6>
+                        <ul>
+                          <li>Visualização de indicadores de produção</li>
+                          <li>Gestão de custos </li>
+                          <li>Acompanhamento de projetos com foco na redução de perdas</li>
+                        </ul>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Estagiário de Manufatura</h4>
+                        <h5>Fev/2021 - Nov/2021</h5>
+                        <h6><em>Mondelez International, Vitória de Santo Antão, Pernambuco</em></h6>
+                        <ul>
+                          <li>Compra de materiais para auxílio a manufatura</li>
+                          <li>Auxílio nas atividade de manutenção autônoma</li>
+                        </ul>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Técnico de Laboratório</h4>
+                        <h5>Jun/2019 - Jun/2020</h5>
+                        <h6><em>Clamper SA, Recife, Pernambuco</em></h6>
+                        <ul>
+                          <li>Teste de qualidade acerca de dispositivos de proteção contra surtos</li>
+                          <li>Análise estatística de correlação para falhas entre dispositivos de proteção contra surtos</li>
+                          <li>Construção de bancada eletrônica para simulação de circuitos</li>
+                          <li>Instalações elétricas prediais e cálculo de aterramento</li>
+                        </ul>
+                      </div>
+                      <h3 class="resume-title">Educação</h3>
+                      <div class="resume-item">
+                        <h4>Mestrado em Engenharia de Sistemas</h4>
+                        <h5>2022 - Hoje</h5>
+                        <h6><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></h6>
+                        <p>Desenvolvimento de modelo matemático para carga e descarga de baterias utilizando temperatura de reação</p>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Bacharelado em Engenharia Elétrica com Ênfase em Eletrônica</h4>
+                        <h5>2015 - 2021</h5>
+                        <h6><em>Universidade de Pernambuco, Escola Politécnica de Pernambuco</em></h6>
+                        <p></p>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Técnico em Eletrônica</h4>
+                        <h5>2014 - 2016</h5>
+                        <h6><em>Serviço Nacional de Aprendizagem Industrial - SENAI</em></h6>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <div class="row">
+                <div class="col-sm">
+                  <div class="footer-info-curriculo">
+                    Deseja baixar uma versão off-line deste currículo ? <a class="btn btn-primary" target= _blank href="https://drive.google.com/u/0/uc?id=1CtTWuROldl0cvtsPSGMNghthi2VdqLdd&export=download">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <!-- Modal Certificados -->
+      <div class="modal fade" id="modalcertificados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h5 class="modal-title text-center">Certificados</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="album py-5">
+                <div class="container">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="img/PBI Certificado.png" width="100%" height="225">
+                        <div class="card-body">
+                          <p class="card-text">Microsoft Power BI Especialista<br>Carga horária: 56 Horas</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="img/PBI Udemy.jpg" width="100%" height="225">
+                        <div class="card-body">
+                          <p class="card-text">Microsoft Power BI - Business Intelligence<br>Carga horária: 32 Horas</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="img/excel.jpg" width="100%" height="225">
+                        <div class="card-body">
+                          <p class="card-text">Microsoft Excel - Formação Especialista<br>Carga Horária: 42 Horas</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="img/linux.png" width="100%" height="225">
+                        <div class="card-body">
+                          <p class="card-text">Bootcamp Linux Experience<br>Carga Horária: 42 Horas</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="img/sql.png" width="100%" height="225">
+                        <div class="card-body">
+                          <p class="card-text">Introdução ao SQL Aplicado ao Power BI<br>Carga Horária: 2 Horas</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="img/gb.png" width="100%" height="225">
+                        <div class="card-body">
+                          <p class="card-text">Lean Six Sigma Grenn Belt<br>Carga Horária: 84 Horas</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+        <script defer src="https://smtpjs.com/v3/smtp.js"> </script>
+        <script defer src="js/bootstrap.bundle.min.js"></script>
+        <script defer src="js/scripts.js"></script>
+        <script defer src=" https://cdn.jsdelivr.net/npm/chart.js@~4.1.1"></script>
+        <script defer src="https://unpkg.com/chartjs-chart-wordcloud@4"></script>
+
+    </div>  
+  </main>
+  <footer class="container">
+    <div class="col-lg-12 text-center">
+      <p>&copy; 2020-2024 &middot; </a></p>
+  </footer>
+</body>
+</html>
