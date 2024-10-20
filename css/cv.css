@@ -1,0 +1,134 @@
+/*--------------------------------------------------------------
+# General Styles
+--------------------------------------------------------------*/
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+
+.resume {
+  padding: 30px 0;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.resume .resume-item {
+  padding-bottom: 20px;
+  margin-top: -2px;
+  border-left: 2px solid #000000;
+  padding-left: 20px;
+}
+
+.resume .resume-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .education-item h4 {
+    text-transform: none; /* Remove uppercase transformation */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: 600; /* Ajuste o peso da fonte conforme necessário */
+    color: #333333; /* Ajuste a cor da fonte conforme necessário */
+  }
+
+/*--------------------------------------------------------------
+# Resume Item List
+--------------------------------------------------------------*/
+
+.resume-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Change to your desired font */
+  line-height: 1.4; /* Adjust line spacing */
+}
+
+.resume-item ul li {
+  padding-bottom: 5px; /* Adjust padding between list items */
+  font-size: 14px; /* Adjust font size if needed */
+  color: #333; /* Adjust text color if needed */
+}
+
+.footer-info-curriculo {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f8f8f8;
+  color: #555555;
+}
+
+.footer-info-curriculo a.btn {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.footer-info-curriculo a.btn:hover {
+  background-color: #333333;
+}
+
+.section-icon {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px; /* Adjust the size as needed */
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/*--------------------------------------------------------------
+# Education Titles
+--------------------------------------------------------------*/
+
+.education-title {
+  text-transform: none; /* Remove uppercase transformation */
+  font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+  font-weight: 600; /* Ajuste o peso da fonte conforme necessário */
+  color: #333333; /* Ajuste a cor conforme necessário */
+}
+
+/*--------------------------------------------------------------
+# Education Section
+--------------------------------------------------------------*/
+
+
