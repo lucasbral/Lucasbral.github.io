@@ -72,6 +72,31 @@ body {
     color: #333333; /* Ajuste a cor da fonte conforme necessário */
   }
 
+.resume .education-item h5 {
+    margin-left: 10px;
+}
+
+.resume .education-item p {
+margin-left: 20px;
+}
+
+.resume .profissao-item h4 {
+    text-transform: none; /* Remove uppercase transformation */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: 600; /* Ajuste o peso da fonte conforme necessário */
+    color: #333333; /* Ajuste a cor da fonte conforme necessário */
+  }
+
+.resume .profissao-item h5 {
+    margin-left: 10px;
+}
+
+.resume .profissao-item p {
+margin-left: 20px;
+}
+
+
+
 /*--------------------------------------------------------------
 # Resume Item List
 --------------------------------------------------------------*/
