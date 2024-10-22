@@ -24,19 +24,19 @@ body {
 --------------------------------------------------------------*/
 
 .resume {
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #333333;
 }
 
 .resume .resume-item {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-top: -2px;
   border-left: 2px solid #000000;
   padding-left: 20px;
@@ -53,16 +53,19 @@ body {
 .resume .resume-item h5 {
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .resume .resume-item ul {
-  list-style: none;
-  padding: 0;
+  list-style-type: square;
+  padding-left: 20px; /* Add padding to align the list items */
+  margin: 10px 0; /* Add margin for spacing */
+  font-size: 14px; /* Set a smaller font size */
+  line-height: 1.1; /* Adjust line height for readability */
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .resume .education-item h4 {
@@ -85,6 +88,7 @@ margin-left: 20px;
     font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
     font-weight: 600; /* Ajuste o peso da fonte conforme necessário */
     color: #333333; /* Ajuste a cor da fonte conforme necessário */
+    margin-top: 20px;
   }
 
 .resume .profissao-item h5 {
@@ -153,7 +157,116 @@ margin-left: 20px;
 }
 
 /*--------------------------------------------------------------
-# Education Section
+Skill Section
 --------------------------------------------------------------*/
 
+.resume .resume-item2 {
+  padding-bottom: 10px;
+  margin-top: -2px;
+  padding-left: 20px;
+}
 
+.resume-item2 .skill-item {
+  margin-bottom: 10px; /* Espaçamento entre os itens de habilidade */
+}
+
+.skill-item h5 {
+  font-size: 18px; /* Tamanho da fonte para os títulos das habilidades */
+  font-weight: 600; /* Peso da fonte */
+  color: #333333; /* Cor da fonte */
+  margin-bottom: 5px; /* Espaçamento abaixo do título */
+}
+
+.skill-item ul {
+  list-style-type: square; /* Tipo de marcador da lista */
+  padding-left: 20px; /* Espaçamento à esquerda para alinhar os itens da lista */
+  margin: 10px 0; /* Margem para espaçamento */
+  font-size: 14px; /* Tamanho da fonte para os itens da lista */
+  line-height: 1.4; /* Altura da linha para melhor legibilidade */
+}
+
+.skill-item ul li {
+  margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}
+
+/*--------------------------------------------------------------
+# Resume Item Skill Item
+--------------------------------------------------------------*/
+
+.skill-item {
+  margin-bottom: 20px; /* Espaçamento entre os itens de habilidade */
+}
+
+.skill-item h5 {
+  font-size: 18px; /* Tamanho da fonte para os títulos das habilidades */
+  font-weight: 600; /* Peso da fonte */
+  color: #333333; /* Cor da fonte */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.skill-item ul {
+  list-style-type: square; /* Tipo de marcador da lista */
+  padding-left: 20px; /* Espaçamento à esquerda para alinhar os itens da lista */
+  margin: 10px 0; /* Margem para espaçamento */
+  font-size: 14px; /* Tamanho da fonte para os itens da lista */
+  line-height: 1.4; /* Altura da linha para melhor legibilidade */
+}
+
+.skill-item ul li {
+  margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}
+
+.skill-level {
+  font-weight: bold; /* Negrito para o nível de habilidade */
+  color: #555; /* Cor para o nível de habilidade */
+}
+
+/*--------------------------------------------------------------
+# Realization Topics
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Realization Topics
+--------------------------------------------------------------*/
+
+.realization {
+  color: #444; /* Cor do texto */
+  background-color: #f9f9f9; /* Cor de fundo para destaque */
+  padding: 4px; /* Espaçamento interno */
+  display: block; /* Garantir que ocupe a largura total */
+}
+
+.realization::before {
+  content: "Realização: "; /* Texto a ser adicionado antes do conteúdo */
+  font-weight: bold; /* Negrito para o texto adicionado */
+  color: #000000; /* Cor do texto adicionado */
+  display: inline-block; /* Exibir como bloco inline */
+  margin-right: 1px; /* Espaçamento à direita */
+}
+
+
+footer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+footer .btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+footer .btn:hover {
+  background-color: #767676;
+}
