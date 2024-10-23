@@ -236,7 +236,7 @@ Skill Section
 }
 
 .realization::before {
-  content: "Realização: "; /* Texto a ser adicionado antes do conteúdo */
+  content: "Achievements: "; /* Texto a ser adicionado antes do conteúdo */
   font-weight: bold; /* Negrito para o texto adicionado */
   color: #000000; /* Cor do texto adicionado */
   display: inline-block; /* Exibir como bloco inline */
@@ -269,4 +269,31 @@ footer .btn {
 
 footer .btn:hover {
   background-color: #767676;
+}
+
+.language-selector {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.language-link {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.language-link.active .flag-icon {
+}
+
+.flag-icon {
+  width: 20px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  vertical-align: middle;
+}
+.language-link:not(.active) .flag-icon {
+  filter: grayscale(100%); /* Aplica escala de cinza à bandeira não selecionada */
+  opacity: 0.5; /* Reduz a opacidade para escurecer a bandeira */
 }
